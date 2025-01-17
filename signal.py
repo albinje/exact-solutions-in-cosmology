@@ -721,7 +721,7 @@ class AutoSignalTemplate2D:
         self._kpar.flags.writeable = False
         self._kperp.flags.writeable = False
 
-        print(self., self.kpar)
+        print(_self.kperp, self.kpar)
 
         def _check_load_ps2D(key):
             # Validate the 2D power spectrum and extract the template and its variance
